@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Photography</title>
+	<style type="text/css">
+				*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+
+	
+}
+
+body{
+	font-family: Monaco;
+	
+
+}
+nav{
+	    background-color: rgb(44 40 37);
+    height: 57px;
+    width: 100%;
+    padding-top: 6px;
+}
+
+label.logo{
+	color: rgba(241, 245, 0, 1);
+	font-size: 35px;
+	line-height: 50px;
+	padding: 0 50px;
+	font-weight: bold;
+}
+nav ul{
+	text-align: center;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 5px;
+
+
+}
+nav ul li a{
+	color: rgba(241, 245, 0, 1);
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	background: #040d10;
+}
+a.active,a:hover{
+	color: white;
+	transition: .5s;
+}
+
+body{
+	background-color: rgb(204, 227, 226);
+}
+
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	transform: translate(-20%, -50%);
+	color: black;
+}
+.login-box h1{
+	float: left;
+	font-size: 40px;
+	border-bottom: 5px solid #4caf50;
+	margin-bottom: 40px;
+	padding: 10px;
+	margin-top: 40px;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #4caf50;
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: black;
+	font-style: bold;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+.btn{
+	width: 100%;
+	background: none;
+	border: 2px solid #4caf50;
+	color: black;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 25px;
+
+}
+.textbox1{
+	height: 100px;
+}
+
+	</style>
+
+
+</head>
+<body>
+	<nav>
+			
+		<!-- </label> -->
+		<!-- <label class="logo">Md sagor</label> -->
+		<ul>
+			<li><a class="active" href="index.html">Home</a></li>
+			<!-- <li><a href="#">About Me</a></li> -->
+			<li><a href="Gallary.html">Gallery</a></li>
+			<li><a href="Contact.html">Contact Me</a></li>
+			
+		</ul>
+	</nav>
+
+	<div class="login-box">
+		<h1>Contact Me</h1>
+		<div class="textbox">
+			<input type="text" placeholder="Enter Name" name="" value="">
+		</div>
+		<div class="textbox">
+			<input type="Email" placeholder="Enter Email" name="" value="">
+		</div>
+
+		<div class="textbox">
+			<input class="textbox1" type="message" placeholder="Enter Message" name="" value="">
+		</div>
+
+	<input class="btn" type="button" name="" value="Send Message">
+	</div>
+
+</body>
+</html>
